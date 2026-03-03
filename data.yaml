@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['car', 'lightSrc-auto', 'lightSrc-moto', 'moto']
+
+roboflow:
+  workspace: light-source-ejjlw
+  project: ml_car_headlight
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/light-source-ejjlw/ml_car_headlight/dataset/1
