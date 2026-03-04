@@ -1,20 +1,30 @@
 # Project-python
+Adaptive Headlight System | 
+Python & CNN 
 Prezentare Generală
- Acest proiect se concentrează pe dezvoltarea unui Sistem de Faruri Adaptive, conceput pentru a crește siguranța rutieră prin detectarea automată a vehiculelor de pe sensul opus și ajustarea fluxului luminos în timp real.
+Acest proiect vizează dezvoltarea unui sistem de faruri adaptive bazat pe rețele neuronale convoluționale (CNN), conceput pentru a îmbunătăți siguranța rutieră prin prevenirea orbirii participanților la trafic. Utilizând tehnologii de Deep Learning, sistemul poate identifica vehiculele în timp real și poate ajusta iluminarea în funcție de condițiile de drum.
 
-Caracteristici Cheie
--Detecție prin Deep Learning: Utilizarea unei arhitecturi de rețele neuronale convoluționale (CNN) pentru a identifica vehiculele cu precizie ridicată.
--Procesare în Timp Real: Integrare cu biblioteca OpenCV pentru a asigura o latență scăzută în procesarea fluxului video, o componentă esențială în scenariile de condus cu viteză ridicată.
+ Caracteristici Cheie
 
-Prevenirea Automată a Orbirii: 
-Obiectivul central este îmbunătățirea siguranței tuturor participanților la trafic prin eliminarea riscului de orbire a șoferilor de pe contrasens.
+Detecție bazată pe CNN: Implementarea unui model robust antrenat pentru a recunoaște vehiculele în diverse scenarii de trafic.
+
+
+Procesare în Timp Real: Utilizarea OpenCV pentru analiza fluxului video și luarea deciziilor instantanee.
+
+
+Performanță în Condiții dificile: Model optimizat pentru a funcționa eficient în medii cu vizibilitate scăzută și iluminare redusă.
+
+
+Siguranță Rutieră: Prevenirea automată a orbirii șoferilor de pe sensul opus prin ajustarea inteligentă a farurilor.
 
 Tehnologii Utilizate
-Limbaj de programare: Python
-Framework-uri de Deep Learning: TensorFlow și Keras pentru antrenarea, validarea și optimizarea modelului de detecție.
-Computer Vision: OpenCV 
 
-Metodologie:
-Antrenarea Modelului: Dezvoltarea și antrenarea unui model de detecție robust (CNN) capabil să recunoască vehiculele și semnăturile luminoase în trafic.
-Integrare: Cuplarea modelului antrenat cu mediul OpenCV 
-Testare și Validare: Evaluarea performanțelor în medii simulate de vizibilitate redusă pentru a asigura consistența, fiabilitatea și siguranța întregului sistem.
+Python: Limbajul de programare principal.
+
+
+TensorFlow & Keras: Framework-uri utilizate pentru antrenarea și dezvoltarea modelului de detecție.
+
+
+OpenCV: Bibliotecă integrată pentru procesarea imaginilor în timp real.
+
+
